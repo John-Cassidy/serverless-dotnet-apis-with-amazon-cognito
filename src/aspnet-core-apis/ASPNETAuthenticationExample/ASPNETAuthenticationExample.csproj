@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <AWSProjectType>Lambda</AWSProjectType>
+    <UserSecretsId>3a94ddb3-c72c-466a-a179-aa48eeb9eb11</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
