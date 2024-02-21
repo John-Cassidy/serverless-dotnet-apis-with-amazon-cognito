@@ -76,6 +76,11 @@ API Gateway: Name = DotnetServerlessAPI - dotnet-rest-api
       - on ANY 'Method Request' add Authorizer
 
     - /authorization-example -- {proxy+}
+
+      - {proxy+}
+      - Create Method ANY
+      - on ANY 'Method Request' add Authorizer
+
     - /custom-scopes-authorization-example -- {proxy+}
 
   - /dotnet

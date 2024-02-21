@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNETAnonymousExample", "a
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aspnet-core-apis", "aspnet-core-apis", "{04273390-80D7-4763-9C34-9E4957A7AE8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETAuthenticationExample", "aspnet-core-apis\ASPNETAuthenticationExample\ASPNETAuthenticationExample.csproj", "{51D6077F-A185-49CB-9BED-0F9362943087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNETAuthenticationExample", "aspnet-core-apis\ASPNETAuthenticationExample\ASPNETAuthenticationExample.csproj", "{51D6077F-A185-49CB-9BED-0F9362943087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETAuthorizationExample", "aspnet-core-apis\ASPNETAuthorizationExample\ASPNETAuthorizationExample.csproj", "{45E081A5-FC98-4218-9488-9E139D15D2E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{51D6077F-A185-49CB-9BED-0F9362943087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51D6077F-A185-49CB-9BED-0F9362943087}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51D6077F-A185-49CB-9BED-0F9362943087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E081A5-FC98-4218-9488-9E139D15D2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E081A5-FC98-4218-9488-9E139D15D2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E081A5-FC98-4218-9488-9E139D15D2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E081A5-FC98-4218-9488-9E139D15D2E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5942DCF2-FD25-434E-AB82-6AF9689A67FE} = {04273390-80D7-4763-9C34-9E4957A7AE8E}
 		{51D6077F-A185-49CB-9BED-0F9362943087} = {04273390-80D7-4763-9C34-9E4957A7AE8E}
+		{45E081A5-FC98-4218-9488-9E139D15D2E6} = {04273390-80D7-4763-9C34-9E4957A7AE8E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44CF7A8F-FF8E-4CBE-8C30-31E1F4BEDD25}
