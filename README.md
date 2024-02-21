@@ -68,12 +68,19 @@ API Gateway: Name = DotnetServerlessAPI - dotnet-rest-api
 
   - /aspnet
 
-    - /anonymous-example
+    - /anonymous-example -- {proxy+} Create Method ANY
     - /authentication-example
-    - /authorization-example
-    - /custom-scopes-authorization-example
+
+      - {proxy+}
+      - Create Method ANY
+      - on ANY 'Method Request' add Authorizer
+
+    - /authorization-example -- {proxy+}
+    - /custom-scopes-authorization-example -- {proxy+}
 
   - /dotnet
 
-    - /anonymous-example
-    - /authorization-example
+    - /anonymous-example -- {proxy+}
+    - /authorization-example -- {proxy+}
+
+- Create Authorizier in API Gateway for authentication paths
