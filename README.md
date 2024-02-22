@@ -85,7 +85,7 @@ API Gateway: Name = DotnetServerlessAPI - dotnet-rest-api
 
   - /dotnet
 
-    - /anonymous-example -- {proxy+}
+    - /anonymous-example
     - /authorization-example -- {proxy+}
 
 - Create Authorizier in API Gateway for authentication paths
