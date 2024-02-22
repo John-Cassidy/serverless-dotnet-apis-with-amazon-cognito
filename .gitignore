@@ -6,6 +6,7 @@
 aws-lambda-tools-defaults.json
 thunder-environment.json
 NOTES.md
+/resources
 
 # User-specific files
 *.rsuser
