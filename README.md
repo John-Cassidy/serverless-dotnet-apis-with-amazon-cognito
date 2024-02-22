@@ -95,3 +95,7 @@ API Gateway: Name = DotnetServerlessAPI - dotnet-rest-api
     - /authorization-example
 
 - Create Authorizier in API Gateway for authentication paths
+
+## AWS CLI / AWS CDK
+
+[AWS CDK / Install / Use](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html#getting_started_install)
