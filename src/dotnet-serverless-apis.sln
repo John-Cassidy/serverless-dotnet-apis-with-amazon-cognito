@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet-core-apis", "dotnet-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DOTNETAnonymousExample", "dotnet-core-apis\DOTNETAnonymousExample\DOTNETAnonymousExample.csproj", "{F2646F9A-0A2E-4A83-B9E8-BFF658243AEB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DOTNETAuthorizationExample", "dotnet-core-apis\DOTNETAuthorizationExample\DOTNETAuthorizationExample.csproj", "{A3232EF1-3810-4870-A1DF-D830947819F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{F2646F9A-0A2E-4A83-B9E8-BFF658243AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2646F9A-0A2E-4A83-B9E8-BFF658243AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2646F9A-0A2E-4A83-B9E8-BFF658243AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3232EF1-3810-4870-A1DF-D830947819F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3232EF1-3810-4870-A1DF-D830947819F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3232EF1-3810-4870-A1DF-D830947819F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3232EF1-3810-4870-A1DF-D830947819F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{45E081A5-FC98-4218-9488-9E139D15D2E6} = {04273390-80D7-4763-9C34-9E4957A7AE8E}
 		{A7B7CB31-5373-45DA-AA93-E99FCEB7EB05} = {04273390-80D7-4763-9C34-9E4957A7AE8E}
 		{F2646F9A-0A2E-4A83-B9E8-BFF658243AEB} = {420CDFA0-7425-4465-94E9-18A61534B54F}
+		{A3232EF1-3810-4870-A1DF-D830947819F8} = {420CDFA0-7425-4465-94E9-18A61534B54F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44CF7A8F-FF8E-4CBE-8C30-31E1F4BEDD25}

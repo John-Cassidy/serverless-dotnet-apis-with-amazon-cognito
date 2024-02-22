@@ -6,6 +6,10 @@ Series of Projects based on YouTube Videos by [@coderjony9694](https://www.youtu
 
 [GitHub Repo](https://github.com/ankushjain358/serverless-dotnet-apis-with-amazon-cognito/tree/main)
 
+Series of Blog Posts [@coderjony](https://coderjony.com/)
+
+[Blog on Implementing Configuration, Logging & Dependency Injection in AWS Lambda using .NET Core](https://coderjony.com/blogs/implementing-configuration-logging-dependency-injection-in-aws-lambda-using-net-core)
+
 AWS Tag: Name: Project, Value: serverless-dotnet-cognito-cdk
 
 AWS Resources:
@@ -23,6 +27,8 @@ AWS Resources:
   - aspnet-core-apis\ASPNETCustomScopesAuthorizationExample
   - dotnet-core-apis\DOTNETAnonymousExample (Function Only)
   - dotnet-core-apis\DOTNETAuthorizationExample (Function Only)
+
+    - [Blog on Implementing Configuration, Logging & Dependency Injection in AWS Lambda using .NET Core](https://coderjony.com/blogs/implementing-configuration-logging-dependency-injection-in-aws-lambda-using-net-core)
 
 - Lambda Role (ServerlessDotnetAPILambdaFunction)
 
@@ -86,6 +92,6 @@ API Gateway: Name = DotnetServerlessAPI - dotnet-rest-api
   - /dotnet
 
     - /anonymous-example
-    - /authorization-example -- {proxy+}
+    - /authorization-example
 
 - Create Authorizier in API Gateway for authentication paths
